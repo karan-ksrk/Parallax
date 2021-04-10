@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000000;
+    min-height: 1500px;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+section:before{
+     content: '';
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     height: 100px;
+     background: linear-gradient(to top, #000000, transparent);
+     z-index: 1000;
+   
+}
+
+#man {
+    top: 100px;
+}
+
+section img {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
