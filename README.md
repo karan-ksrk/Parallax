@@ -1,2 +1,2 @@
-## Live At http://ksrk.tk/parallax/
+## Live At http://ksrk.tk/Parallax/
 😎😎😎
