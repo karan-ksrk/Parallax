@@ -8,19 +8,29 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+    <header></header>
     <section>
       <img src="images/full_image.png" alt="full_image" id="full_image" />
+      <h1 id="mountain_text">THE TRAVLLER</h1>
       <img src="images/man.png" alt="man" id="man" />
     </section>
+
+    <div class="secondary">
+     <div class="button">
+      <a href="index2.html">Next ➡</a
+     </div> 
+      </div>
 
     <script type="text/javascript">
       let full_image = document.getElementById('full_image')
       let man = document.getElementById('man')
+      let mountain_text = document.getElementById('mountain_text')
 
       window.addEventListener('scroll', function () {
         var value = window.scrollY
         full_image.style.top = value * 0.4 + 'px'
         man.style.top = value * 0.1 + 'px' + '100'
+        mountain_text.style.top = 150 + value * 0.5 + 'px'
       })
     </script>
   </body>
