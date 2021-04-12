@@ -45,7 +45,19 @@ section img {
 section h1 {
     position: absolute;
     top: 230px;
-    color: rgb(236, 236, 236);
+    color: rgb(255, 255, 255);
     font-size: 5em;
-    background-color:transparent;
+
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 /* 0 0 40px #fff, */
+                 /* 0 0 80px #fff, */
+                 /* 0 0 120px #fff, */
+                 0 0 160px #fff;
+}
+
+h1:hover {
+    color: #fff;
+    
+
 }
